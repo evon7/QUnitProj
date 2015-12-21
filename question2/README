@@ -1,0 +1,21 @@
+What is needed
+==============
+In this question, we will be writing a small function and writing tests for
+that function.
+1. Write implementation for following function
+    function compute(numbers) {}
+2. Provide tests for this function
+
+
+What is provided
+================
+Three files:
+-- second-greatest-lowest.js (You will be writing your code here)
+-- second-greatest-lowest-tests.js (You will be writing your tests here)
+-- second-greatest-lowest-tests.html (QUnit test fixture)
+      It has one test written already, you will be developing more
+
+What does the function do?
+==========================
+The function returns the second largest and second lowest from the array of
+numbers passed to it. Please refer to function definition to get more details.

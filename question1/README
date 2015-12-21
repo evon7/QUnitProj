@@ -1,0 +1,54 @@
+Let's do some TDD (Test Driven Development).
+
+What is needed
+=============
+1. Write the function which makes all the tests pass
+2. Add more tests (upto you) after making the existing test pass
+
+What is provided
+================
+There are three files in this directory
+-- range.js (This is am empty function that you will be developing)
+-- range-tests.js (The test suite which tests whether the function is working)
+-- range-tests.html (The QUnit test which can be executed in the browser)
+
+
+Your task is to provide implementaiton for the following function
+
+    function range(start, end, [step])
+
+Here is what the function should do:
+====================================
+
+Function takes two arguments (start and end) and optionally takes a third
+argument called step. The function should return an array containing all the
+numbers from start up to end (including both start as well as end).
+
+The step if provided indicates the "step" value used to build up the array.
+
+If step is not provided, it should return an array which increments (or decrements)
+the elements by 1.
+
+Examples:
+=========
+
+range(2,5) --> [2,3,4,5]
+range(5,3) --> [5,4,3]
+range(3,10,3) --> [3,6,9]
+
+In all the cases where the parameters are invalid,
+the function should return undefined
+
+
+Test Driven Development
+=======================
+Start by running the tests in the browser. Initially majority of tests will
+fail. Start by adding implementation and making tests succeed one after the another.
+Once all the test passes, you can be assured that your function works as expecdted.
+
+
+Adding more Tests
+=================
+After you have developed the function such that all the tests passes, please
+add few more tests that you may think tests areas not tested by tests provided
+by me.
